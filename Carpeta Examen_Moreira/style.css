@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-position: url('IMAGENES/spe.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#video-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+}
+
+.contenedor-formulario {
+    background: rgba(203, 26, 26, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+.contenedor-formulario h2 {
+    margin-bottom: 20px;
+    color: #1ec031;
+}
+
+.campo-formulario {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.campo-formulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2215d4;
+}
+
+.campo-formulario input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fd13c2;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
